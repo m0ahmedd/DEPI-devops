@@ -4,4 +4,4 @@ This repo to exercise on pushing it to 3 remote repos usin one command:
 	$ git remote set-url --add all-repos url2
 	$ git remote set-url --add all-repos url3
 - Then, pushing your local repos to all-repos:
-	$ git push -u all-repos main
+	$ git push --force all-repos main
